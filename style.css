@@ -23,4 +23,99 @@ button {
     background: #3498db;
     color: white;
     border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.error-message {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.success-message {
+    background: #27ae60;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.warning-message {
+    background: #f39c12;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.nav-links {
+    margin: 20px 0;
+}
+
+.nav-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+}
+
+.nav-links a:hover {
+    background: #3498db;
+    color: white;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.form-container input, .form-container select {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.admin-only {
+    background: #e8f4fd;
+    border-left: 4px solid #3498db;
+    padding: 10px;
+    margin: 10px 0;
 }
